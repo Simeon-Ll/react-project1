@@ -1,4 +1,6 @@
-
+import img1 from "./assets/images/ibeno beach.webp"
+import img2 from "./assets/images/giant footprint.jpg"
+import img3 from "./assets/images/port harcourt tourist beach.jfif"
 export default [
     {
         title: "Ibeno Beach",
@@ -7,7 +9,7 @@ export default [
         startDate: "15 Feb 2024",
         endDate: "21 Feb 2024",
         description: "Ibeno Beach, located in Nigeria, offers serene shores along the Gulf of Guinea. With golden sands stretching for miles, it's a haven for relaxation and water activities, surrounded by lush greenery.",
-        locationImage: "/public/ibeno beach.webp",
+        locationImage: img1,
     },
     {
         title: "The Giant Footprint of Ukhuse Oke",
@@ -16,7 +18,7 @@ export default [
         startDate: "12 Mar 2024",
         endDate: "14 Mar 2024",
         description: "The Giant Footprint of Ukhuse Oket beach astounds with its colossal impression embedded in the sand, sparking awe and intrigue. This natural wonder beckons adventurers to ponder its origins and marvel at nature's grandeur.",
-        locationImage: "/public/giant footprint.jpg",
+        locationImage: img2,
     },
     {
         title: "Port Harcourt Tourist Beach",
@@ -25,6 +27,6 @@ export default [
         startDate: "30 Mar 2024",
         endDate: "2 Apr 2024",
         description: "Port Harcourt Tourist Beach, nestled along the Gulf of Guinea, offers a serene escape with golden sands and clear waters. Adventure seekers can indulge in water sports, while others relax amidst picturesque coastal scenery.",
-        locationImage: "/public/port harcourt tourist beach.jfif",
+        locationImage: img3,
     }
 ]
